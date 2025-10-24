@@ -51,26 +51,26 @@ This tutorial outlines the implementation of Azure Virtual Machines and remote d
 
 4. Create a Virtual Machine
 - In the search bar, type "Virtual Machines."
-![image](https://github.com/user-attachments/assets/219fc684-bb34-4651-8961-9461fa09ebe2)
+![image](https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(323).png)
 
 - Click "Create," then select "Azure Virtual Machine."
-![image](https://github.com/user-attachments/assets/6cbd1ff1-6262-4679-bced-63fb8c970814)
+![image](https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(324).png)
 
 - In the creation form:
 - Select your Azure Subscription and the Resource Group you just created.
 - Name your Virtual Machine.
 - Choose the same region as your resource group.
-![image](https://github.com/user-attachments/assets/c1bbfc54-ca45-499f-b7ef-07c3a51ef923)
+![image]https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(325)2.PNG)
 
 - Select your desired Operating System under "Image."(windows 10 pro)
-- Pick the desired Size for your virtual CPU.(Standard D2s_v3 - 2 vcpus, 8 GiB memory)
-![image](https://github.com/user-attachments/assets/5e2df3f8-aa05-4a8c-a2f5-f9b237ead954)
+- Pick the desired and compatible Size for your virtual CPU.(minumum 2 vcpus and 8gb of memory)
+![image](https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(329).png)
 
 
 - Create a username and password for the Administrator account.
 - Check the licensing box.
 Click "Review + Create." After validation, click "Create." This may take a few minutes.
-![image](https://github.com/user-attachments/assets/ab17b907-aada-4d4a-a698-1c53ad765778)
+![image](https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(334).png)
 
 
 Congratulations on creating your Virtual Machine!
