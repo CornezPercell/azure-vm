@@ -23,7 +23,7 @@ This tutorial outlines the implementation of Azure Virtual Machines and remote d
 <h2>Deployment and Configuration Steps</h2>
 <h2>CREATING VIRTUAL MACHINE</h2>
 
-
+![image](https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(317).png)
 1. Visit Azure
 - Go to azure.microsoft.com.
 
@@ -31,7 +31,7 @@ This tutorial outlines the implementation of Azure Virtual Machines and remote d
 - Sign up for a free 30-day subscription.
 - Create a username and password for your tenant.
 - Access the portal anytime at portal.azure.com using your credentials.
-![image](https://github.com/user-attachments/assets/cb1c6cb2-9142-47a5-92f1-f3a24c26ed3d)
+
 
 
 
@@ -39,12 +39,12 @@ This tutorial outlines the implementation of Azure Virtual Machines and remote d
 
 3. Create a Resource Group
 - In the search bar, type "Resource Groups" and click on "Create Resource Group".
-![image](https://github.com/user-attachments/assets/3f413928-9fa7-4661-8fb4-c65553521eca)
+![image](https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(319).png)
 
 - Enter a name for your resource group.
 - Under "Resource Details," choose your desired region.
 - Click "Review + Create." After validation, click "Create" to set up the resource group.
-![image](https://github.com/user-attachments/assets/44c9f750-83e1-48e6-8442-4422aad740c0)
+![image](https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(322).png)
 
 
 
