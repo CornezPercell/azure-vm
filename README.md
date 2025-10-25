@@ -23,7 +23,7 @@ This tutorial outlines the implementation of Azure Virtual Machines and remote d
 <h2>Deployment and Configuration Steps</h2>
 <h2>CREATING VIRTUAL MACHINE</h2>
 
-<img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(317).png" height="60%" width="60%">
+<img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(317).png" height="80%" width="80%">
 1. Visit Azure
 - Go to azure.microsoft.com.
 
@@ -39,47 +39,47 @@ This tutorial outlines the implementation of Azure Virtual Machines and remote d
 
 3. Create a Resource Group
 - In the search bar, type "Resource Groups" and click on "Create Resource Group".
-- <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(319).png" height="60%" width="60%">
+- <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(319).png" height="80%" width="80%">
 
 
 - Enter a name for your resource group.
 - Under "Resource Details," choose your desired region.
 - Click "Review + Create." After validation, click "Create" to set up the resource group.
- <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(322).png" height="60%" width="60%">
+ <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(322).png" height="80%" width="80%">
 
 
 
 4. Create a Virtual Machine
 - In the search bar, type "Virtual Machines."
-  <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(323).png" height="60%" width="60%">
+  <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(323).png" height="80%" width="80%">
   
 - Click "Create," then select "Azure Virtual Machine."
-   <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(324).png" height="60%" width="60%">
+   <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(324).png" height="80%" width="80%">
 
 - In the creation form:
 - Select your Azure Subscription and the Resource Group you just created.
 - Name your Virtual Machine.
 - Choose the same region as your resource group.
 
- <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(325)2.PNG" height="60%" width="60%">
+ <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(325)2.PNG" height="80%" width="80%">
 
 - Select your desired Operating System under "Image."(windows 10 )
 - Pick the desired and compatible Size for your virtual CPU.(minumum 2 vcpus and 8gb of memory)
-- 
- <img src="(https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(329).png" height="60%" width="60%">
+  
+ <img src="(https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(329).png" height="80%" width="80%">
 
 
 - Create a username and password for the Administrator account.
 - Be sure to keep a record of your name and password that was created.
 
- <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(332).png" height="60%" width="60%">
+ <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(332).png" height="80%" width="80%">
 
 -Check the licensing box.
 Click "Review + Create." After validation, click "Create." This may take a few minutes.
 
- <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(333).png" height="60%" width="60%">
+ <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(333).png" height="80%" width="80%">
 
- <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(334).png" height="60%" width="60%">
+ <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(334).png" height="80%" width="80%">
 
 
 Congratulations on creating your Virtual Machine!
@@ -92,26 +92,26 @@ Congratulations on creating your Virtual Machine!
 - In the search bar, type "Virtual Machines" or find it under the "Azure Services" tab.
 - Click on the name of the VM you created to access the overview page.
 
- <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(338).png" height="60%" width="60%">
+ <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(338).png" height="80%" width="80%">
  
 - Note the Public IP Address displayed.
- <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(340).png" height="60%" width="60%">
+ <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(340).png" height="80%" width="80%">
 
 
 2. For Windows Users
 - Open the Start menu and type "Remote Desktop."
- <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(341).png" height="60%" width="60%">
+ <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(341).png" height="80%" width="80%">
 
 - Login to the Virtual Machine using the public ip address of the Virtual Machine, Click Show options to type in username
 - Paste or type the public IP address into the Remote Desktop Connection window.
 - 
- <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(342).png" height="60%" width="60%">
+ <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(342).png" height="80%" width="80%">
 
 
 - Click connect, type in the password when prompted.
--  <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(343).png" height="60%" width="60%">
+-  <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(343).png" height="80%" width="80%">
 
-<img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(344).png" height="60%" width="60%">
+<img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(344).png" height="80%" width="80%">
 
 - 
 
@@ -119,32 +119,32 @@ Congratulations on creating your Virtual Machine!
 - If you receive a warning about security, click Yes to proceed.
 - Your Virtual Machine should load
 
-<img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(346).png" height="60%" width="60%">
+<img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(346).png" height="80%" width="80%">
 
   
 3. For Mac Users
 - Download "windows app" from the App Store (it's free).
-- <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(355).png" height="60%" width="60%">
+- <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(355).png" height="80%" width="80%">
 
 
 - Open the app and click the + sign to Add PC.
- <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(356).png" height="60%" width="60%">
+ <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(356).png" height="80%" width="80%">
 
 
 
 - Enter the public IP address under "PC Name.
-   <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(357).png" height="60%" width="60%">
+   <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(357).png" height="80%" width="80%">
 
 
 
 - Under "Saved PC," enter the VM's username and password.
 - Click continue.
   
-   <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(358).png" height="60%" width="60%">
+   <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(358).png" height="80%" width="80%">
    
 4. Connecting to Your VM
 
-   <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(346).png" height="60%" width="60%">
+   <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(346).png" height="80%" width="80%">
 
 
 
@@ -154,12 +154,12 @@ Congratulations on creating your Virtual Machine!
 1. To delete your VM and associated resources:
 - Go back to the Azure portal.
 - 
-     <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(350).png" height="60%" width="60%">
+     <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(350).png" height="80%" width="80%">
 
 - Navigate to your Resource Group.
 - Delete the resource group and any related folders. (VM_Network_Activities)
 
-<img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(354).png" height="60%" width="60%">
+<img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(354).png" height="80%" width="80%">
 
 
 And that's it! You've successfully created, accessed, and deleted a Virtual Machine on Azure.
