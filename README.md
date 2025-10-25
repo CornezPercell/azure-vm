@@ -60,16 +60,22 @@ This tutorial outlines the implementation of Azure Virtual Machines and remote d
 - Select your Azure Subscription and the Resource Group you just created.
 - Name your Virtual Machine.
 - Choose the same region as your resource group.
-![image]https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(325)2.PNG)
+![image](https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(325)2.PNG)
 
-- Select your desired Operating System under "Image."(windows 10 pro)
+- Select your desired Operating System under "Image."(windows 10 )
 - Pick the desired and compatible Size for your virtual CPU.(minumum 2 vcpus and 8gb of memory)
 ![image](https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(329).png)
 
 
 - Create a username and password for the Administrator account.
-- Check the licensing box.
+- Be sure to keep a record of your name and password that was created.
+
+![image](https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(332).png) 
+-Check the licensing box.
 Click "Review + Create." After validation, click "Create." This may take a few minutes.
+
+![image](https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(333).png).png)
+
 ![image](https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(334).png)
 
 
@@ -82,27 +88,36 @@ Congratulations on creating your Virtual Machine!
 1. Access Your Virtual Machine
 - In the search bar, type "Virtual Machines" or find it under the "Azure Services" tab.
 - Click on the name of the VM you created to access the overview page.
-[
-](https://private-user-images.githubusercontent.com/183324257/372301928-219fc684-bb34-4651-8961-9461fa09ebe2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjc3NTI3OTIsIm5iZiI6MTcyNzc1MjQ5MiwicGF0aCI6Ii8xODMzMjQyNTcvMzcyMzAxOTI4LTIxOWZjNjg0LWJiMzQtNDY1MS04OTYxLTk0NjFmYTA5ZWJlMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAwMVQwMzE0NTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00ZGViN2RlYTY3YThlOTBkODk0MzhlNDVmMzc5YzQ2ZmU3Mjk2YmUwY2E0NjI4MjAzNTBmZDk3MDI0N2Y5ZmM3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.UcvE2Wl1F2NfWeh9HIk9aCIC06HurUuxjZpz8-o1uiE)![image](https://github.com/user-attachments/assets/777c74f3-9d7f-4baa-b923-110d9519d51d)
+![image](https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(338).png)
 
 - Note the Public IP Address displayed.
-![image](https://github.com/user-attachments/assets/4f01d49b-e174-47f2-a966-7d9ce2a5e70e)
-
+![image](https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(340).png)
 
 
 
 
 2. For Windows Users
 - Open the Start menu and type "Remote Desktop."
+ <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(341).png" height="60%" width="60%">
+
+- Login to the Virtual Machine using the public ip address of the Virtual Machine, Click Show options to type in username
 - Paste or type the public IP address into the Remote Desktop Connection window.
-![image](https://github.com/user-attachments/assets/591a6a83-79f6-411e-8ce2-3dc34ac4d329)
+- 
+ <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(342).png" height="60%" width="60%">
 
-- Enter the username and password you created for the VM.
+
+- Click connect, type in the password when prompted.
+-  <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(343).png" height="60%" width="60%">
+
+<img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(344).png" height="60%" width="60%">
+
+- 
+
+- 
 - If you receive a warning about security, click Yes to proceed.
-- Your Virtual Machine should load; enter your username and password when prompted.
+- Your Virtual Machine should load
 
-
-![image](https://github.com/user-attachments/assets/e3bc2421-98df-4395-836d-8582788db287)
+<img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(346).png" height="60%" width="60%">
 
 - Connecting to Your VM
 
