@@ -23,7 +23,7 @@ This tutorial outlines the implementation of Azure Virtual Machines and remote d
 <h2>Deployment and Configuration Steps</h2>
 <h2>CREATING VIRTUAL MACHINE</h2>
 
-![image](https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(317).png)
+<img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(317).png" height="60%" width="60%">
 1. Visit Azure
 - Go to azure.microsoft.com.
 
@@ -39,44 +39,47 @@ This tutorial outlines the implementation of Azure Virtual Machines and remote d
 
 3. Create a Resource Group
 - In the search bar, type "Resource Groups" and click on "Create Resource Group".
-![image](https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(319).png)
+- <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(319).png" height="60%" width="60%">
+
 
 - Enter a name for your resource group.
 - Under "Resource Details," choose your desired region.
 - Click "Review + Create." After validation, click "Create" to set up the resource group.
-![image](https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(322).png)
-
+ <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(322).png" height="60%" width="60%">
 
 
 
 4. Create a Virtual Machine
 - In the search bar, type "Virtual Machines."
-![image](https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(323).png)
-
+  <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(323).png" height="60%" width="60%">
+  
 - Click "Create," then select "Azure Virtual Machine."
-![image](https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(324).png)
+   <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(324).png" height="60%" width="60%">
 
 - In the creation form:
 - Select your Azure Subscription and the Resource Group you just created.
 - Name your Virtual Machine.
 - Choose the same region as your resource group.
-![image](https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(325)2.PNG)
+
+ <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(325)2.PNG" height="60%" width="60%">
 
 - Select your desired Operating System under "Image."(windows 10 )
 - Pick the desired and compatible Size for your virtual CPU.(minumum 2 vcpus and 8gb of memory)
-![image](https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(329).png)
+- 
+ <img src="(https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(329).png" height="60%" width="60%">
 
 
 - Create a username and password for the Administrator account.
 - Be sure to keep a record of your name and password that was created.
 
-![image](https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(332).png) 
+ <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(332).png" height="60%" width="60%">
+
 -Check the licensing box.
 Click "Review + Create." After validation, click "Create." This may take a few minutes.
 
-![image](https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(333).png).png)
+ <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(333).png" height="60%" width="60%">
 
-![image](https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(334).png)
+ <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(334).png" height="60%" width="60%">
 
 
 Congratulations on creating your Virtual Machine!
@@ -88,12 +91,11 @@ Congratulations on creating your Virtual Machine!
 1. Access Your Virtual Machine
 - In the search bar, type "Virtual Machines" or find it under the "Azure Services" tab.
 - Click on the name of the VM you created to access the overview page.
-![image](https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(338).png)
 
+ <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(338).png" height="60%" width="60%">
+ 
 - Note the Public IP Address displayed.
-![image](https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(340).png)
-
-
+ <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(340).png" height="60%" width="60%">
 
 
 2. For Windows Users
@@ -137,6 +139,7 @@ Congratulations on creating your Virtual Machine!
 
 - Under "Saved PC," enter the VM's username and password.
 - Click continue.
+  
    <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(358).png" height="60%" width="60%">
    
 4. Connecting to Your VM
@@ -150,12 +153,13 @@ Congratulations on creating your Virtual Machine!
 
 1. To delete your VM and associated resources:
 - Go back to the Azure portal.
-![image](https://github.com/user-attachments/assets/c72b1037-3cbe-4e31-822a-fe81319e2124)
+- 
+     <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(350).png" height="60%" width="60%">
 
 - Navigate to your Resource Group.
-- Delete the resource group and any related folders (e.g., NetworkWatcherRG).
-(RG-network-activitie)
-![image](https://github.com/user-attachments/assets/ff63b762-f0b5-46d9-955e-1d537c2d9119)
+- Delete the resource group and any related folders. (VM_Network_Activities)
+
+<img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(354).png" height="60%" width="60%">
 
 
 And that's it! You've successfully created, accessed, and deleted a Virtual Machine on Azure.
