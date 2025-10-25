@@ -119,33 +119,31 @@ Congratulations on creating your Virtual Machine!
 
 <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(346).png" height="60%" width="60%">
 
-- Connecting to Your VM
-
-
-![image](https://github.com/user-attachments/assets/4860d276-db2c-4de3-a870-1e1ea34048b4)
-
-
-
+  
 3. For Mac Users
 - Download "windows app" from the App Store (it's free).
-![image](https://github.com/user-attachments/assets/5225a579-c0df-471d-a912-30c2bce1459b)
+- <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(355).png" height="60%" width="60%">
 
 
 - Open the app and click the + sign to Add PC.
-![image](https://github.com/user-attachments/assets/a950947a-cc2d-404c-bb54-a1df316fdf06)
+ <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(356).png" height="60%" width="60%">
 
 
-- Enter the public IP address under "PC Name."
-![image](https://github.com/user-attachments/assets/b9c7114d-9459-4ba6-abe1-da0ec58dc4ae)
+
+- Enter the public IP address under "PC Name.
+   <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(357).png" height="60%" width="60%">
 
 
 
 - Under "Saved PC," enter the VM's username and password.
 - Click continue.
-![image](https://github.com/user-attachments/assets/2a52a822-9186-450c-adb5-cb7fe9ae0578)
-
+   <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(358).png" height="60%" width="60%">
+   
 4. Connecting to Your VM
-![image](https://github.com/user-attachments/assets/6773ccfd-31b0-40eb-bd90-161b7e6e8820)
+
+   <img src="https://github.com/CornezPercell/azure-vm/blob/main/Screenshot%20(346).png" height="60%" width="60%">
+
+
 
 
 <h2>Deleting Your Virtual Machine</h2>
